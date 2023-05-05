@@ -1,6 +1,8 @@
 const dotnev = require("dotenv")
 const express = require("express");
 const mongoose = require("mongoose");
+mongoose.set('strictQuery', false);
+
 const app = express();
 
 dotnev.config({ path: './config.env' });
