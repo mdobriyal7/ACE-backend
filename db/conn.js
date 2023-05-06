@@ -11,4 +11,3 @@ mongoose
 .catch((err) => {
   console.log(err);
 });
-mongoose.set("strictQuery", true);
